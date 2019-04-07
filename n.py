@@ -10,5 +10,6 @@ while True:
 		print('估大d')
 	else :
 		print('你對啦~')
+		break
 	
 	
