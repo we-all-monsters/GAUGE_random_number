@@ -1,5 +1,9 @@
 import random
-r = random.randint(1, 100)
+min = input('最小數值:')
+max = input('最大數值:')
+min = int(min)
+max = int(max)
+r = random.randint(min , max)
 time = 0
 while True:
 	time += 1 #time = time +1
